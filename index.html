@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Comisiones</title>
+    <link rel="stylesheet" href="estilos.css">
+    <script src="Ejercicio3.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculadora de Sueldo y Comisiones</h1>
+
+        <label for="sueldoBase">Sueldo Base ($):</label>
+        <input type="number" id="sueldoBase" placeholder="Ingresa el sueldo base">
+
+        <label for="venta1">Venta 1 ($):</label>
+        <input type="number" id="venta1" placeholder="Ingresa el valor de la primera venta">
+
+        <label for="venta2">Venta 2 ($):</label>
+        <input type="number" id="venta2" placeholder="Ingresa el valor de la segunda venta">
+
+        <label for="venta3">Venta 3 ($):</label>
+        <input type="number" id="venta3" placeholder="Ingresa el valor de la tercera venta">
+
+        <button onclick="calcularTotal()">Calcular</button>
+
+        <div class="result" id="resultado"></div>
+    </div>
+</body>
+</html>
